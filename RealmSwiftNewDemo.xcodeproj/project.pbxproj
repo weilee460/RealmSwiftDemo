@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		173FCCC047032ED0D368F32B /* Pods_RealmSwiftNewDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21C1CDCD451DB1FB183B2EB8 /* Pods_RealmSwiftNewDemo.framework */; };
+		2EB210931CAC13F10009B274 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB210921CAC13F10009B274 /* AppDelegate.swift */; };
+		2EB210951CAC13F10009B274 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB210941CAC13F10009B274 /* ViewController.swift */; };
+		2EB210981CAC13F10009B274 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EB210961CAC13F10009B274 /* Main.storyboard */; };
+		2EB2109A1CAC13F10009B274 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EB210991CAC13F10009B274 /* Assets.xcassets */; };
+		2EB2109D1CAC13F10009B274 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EB2109B1CAC13F10009B274 /* LaunchScreen.storyboard */; };
+		2EB210A51CAC176C0009B274 /* ConsumType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB210A41CAC176C0009B274 /* ConsumType.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		21C1CDCD451DB1FB183B2EB8 /* Pods_RealmSwiftNewDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RealmSwiftNewDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EB2108F1CAC13F10009B274 /* RealmSwiftNewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealmSwiftNewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EB210921CAC13F10009B274 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2EB210941CAC13F10009B274 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2EB210971CAC13F10009B274 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2EB210991CAC13F10009B274 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2EB2109C1CAC13F10009B274 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2EB2109E1CAC13F10009B274 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EB210A41CAC176C0009B274 /* ConsumType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsumType.swift; sourceTree = "<group>"; };
+		723A2B98B21B926D40EFC9B8 /* Pods-RealmSwiftNewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmSwiftNewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-RealmSwiftNewDemo/Pods-RealmSwiftNewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		F87ED401BEA6419AF55FC9B1 /* Pods-RealmSwiftNewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmSwiftNewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RealmSwiftNewDemo/Pods-RealmSwiftNewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2EB2108C1CAC13F10009B274 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				173FCCC047032ED0D368F32B /* Pods_RealmSwiftNewDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2EB210861CAC13F10009B274 = {
+			isa = PBXGroup;
+			children = (
+				2EB210911CAC13F10009B274 /* RealmSwiftNewDemo */,
+				2EB210901CAC13F10009B274 /* Products */,
+				851E49869284A36958209E36 /* Pods */,
+				61B0F1D41EB21DCE4E9411C2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2EB210901CAC13F10009B274 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2EB2108F1CAC13F10009B274 /* RealmSwiftNewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2EB210911CAC13F10009B274 /* RealmSwiftNewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2EB210921CAC13F10009B274 /* AppDelegate.swift */,
+				2EB210941CAC13F10009B274 /* ViewController.swift */,
+				2EB210A41CAC176C0009B274 /* ConsumType.swift */,
+				2EB210961CAC13F10009B274 /* Main.storyboard */,
+				2EB210991CAC13F10009B274 /* Assets.xcassets */,
+				2EB2109B1CAC13F10009B274 /* LaunchScreen.storyboard */,
+				2EB2109E1CAC13F10009B274 /* Info.plist */,
+			);
+			path = RealmSwiftNewDemo;
+			sourceTree = "<group>";
+		};
+		61B0F1D41EB21DCE4E9411C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				21C1CDCD451DB1FB183B2EB8 /* Pods_RealmSwiftNewDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		851E49869284A36958209E36 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F87ED401BEA6419AF55FC9B1 /* Pods-RealmSwiftNewDemo.debug.xcconfig */,
+				723A2B98B21B926D40EFC9B8 /* Pods-RealmSwiftNewDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2EB2108E1CAC13F10009B274 /* RealmSwiftNewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EB210A11CAC13F10009B274 /* Build configuration list for PBXNativeTarget "RealmSwiftNewDemo" */;
+			buildPhases = (
+				3CA9412272045E474E0C1003 /* Check Pods Manifest.lock */,
+				2EB2108B1CAC13F10009B274 /* Sources */,
+				2EB2108C1CAC13F10009B274 /* Frameworks */,
+				2EB2108D1CAC13F10009B274 /* Resources */,
+				4D45E57D2E777D5B373D6B37 /* Embed Pods Frameworks */,
+				D1F4E1F539B901041A20A35A /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RealmSwiftNewDemo;
+			productName = RealmSwiftNewDemo;
+			productReference = 2EB2108F1CAC13F10009B274 /* RealmSwiftNewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2EB210871CAC13F10009B274 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ying;
+				TargetAttributes = {
+					2EB2108E1CAC13F10009B274 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 2EB2108A1CAC13F10009B274 /* Build configuration list for PBXProject "RealmSwiftNewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2EB210861CAC13F10009B274;
+			productRefGroup = 2EB210901CAC13F10009B274 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2EB2108E1CAC13F10009B274 /* RealmSwiftNewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2EB2108D1CAC13F10009B274 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EB2109D1CAC13F10009B274 /* LaunchScreen.storyboard in Resources */,
+				2EB2109A1CAC13F10009B274 /* Assets.xcassets in Resources */,
+				2EB210981CAC13F10009B274 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3CA9412272045E474E0C1003 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4D45E57D2E777D5B373D6B37 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RealmSwiftNewDemo/Pods-RealmSwiftNewDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1F4E1F539B901041A20A35A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RealmSwiftNewDemo/Pods-RealmSwiftNewDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2EB2108B1CAC13F10009B274 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EB210951CAC13F10009B274 /* ViewController.swift in Sources */,
+				2EB210A51CAC176C0009B274 /* ConsumType.swift in Sources */,
+				2EB210931CAC13F10009B274 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2EB210961CAC13F10009B274 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2EB210971CAC13F10009B274 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2EB2109B1CAC13F10009B274 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2EB2109C1CAC13F10009B274 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2EB2109F1CAC13F10009B274 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2EB210A01CAC13F10009B274 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2EB210A21CAC13F10009B274 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F87ED401BEA6419AF55FC9B1 /* Pods-RealmSwiftNewDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RealmSwiftNewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ying.seu.com.RealmSwiftNewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2EB210A31CAC13F10009B274 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 723A2B98B21B926D40EFC9B8 /* Pods-RealmSwiftNewDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RealmSwiftNewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ying.seu.com.RealmSwiftNewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2EB2108A1CAC13F10009B274 /* Build configuration list for PBXProject "RealmSwiftNewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EB2109F1CAC13F10009B274 /* Debug */,
+				2EB210A01CAC13F10009B274 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EB210A11CAC13F10009B274 /* Build configuration list for PBXNativeTarget "RealmSwiftNewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EB210A21CAC13F10009B274 /* Debug */,
+				2EB210A31CAC13F10009B274 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2EB210871CAC13F10009B274 /* Project object */;
+}

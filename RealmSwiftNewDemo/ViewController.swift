@@ -56,11 +56,14 @@ class ViewController: UIViewController {
         print(realm.path)
 
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    
+    //unwind segue action method
+    @IBAction func saveUnwindAction(unwindSegue: UIStoryboardSegue)
+    {
+        
     }
+
 
 
 }
